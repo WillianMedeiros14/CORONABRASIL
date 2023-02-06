@@ -1,0 +1,15 @@
+.logo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo span{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.logo span:nth-child(2n){
+    font-size: 24px;
+    color: #12BF81;
+}

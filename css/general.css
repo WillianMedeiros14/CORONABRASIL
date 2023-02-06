@@ -1,0 +1,85 @@
+
+.general {
+    padding: 66px 0;
+    align-self: center;
+    flex-direction: column;
+    align-items: start;
+    max-width: 1177px;
+    /* width: 74%; */
+    border-bottom: 1px solid #E2D1D1;
+}
+
+
+.general .updateDate span {
+    font-size: 20px;
+    color: #0A093D;
+    font-weight: 700;
+}
+
+.general .updateDate span:nth-child(2n) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.general .cardsArea{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4.125rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.cardGeneral {
+    min-width: 311px;
+    height: 10.813rem;
+    background-color: #1DA584;
+    border: 2px solid #19D7A9;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cardGeneral:nth-child(2) {
+    background-color: #9A36BB;
+    border: 2px solid #2819D7;
+}
+
+.cardGeneral:nth-child(3) {
+    background-color: #F46F36;
+    border: 2px solid #EF0521;
+}
+
+.cardGeneral span {
+   color: #FFFFFF;
+}
+
+.cardGeneral .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.cardGeneral .totalNumber {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+
+@media (max-width: 836px) {
+    .general {
+        align-items: center;
+        max-width: auto;
+        width: auto;
+    }
+
+    .general .cardsArea{
+      
+        justify-content: center;
+      
+    }
+}
+

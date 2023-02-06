@@ -1,0 +1,147 @@
+
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.moreInfoleftLine {
+    width: 8px;
+    height: 62px;
+    border-radius: 6px;
+    background-color: #12BF81;
+    margin-right: 2.375rem;
+}
+
+
+.moreInfo .contentTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.moreInfo .areaCoronaVirusSus {
+    display: flex;
+    background: linear-gradient(270deg, #1574F5 0%, #6C42D5 98.3%);
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.moreInfo .areaCoronaVirusSus{
+    padding: 46px 42px;
+    position: relative;
+}
+
+.moreInfo .areaCoronaVirusSus .appImage{
+   position: absolute;
+   right: 35px;
+}
+
+.moreInfo .areaCoronaVirusSus .textInfoArea{
+    max-width: 60%;
+}
+
+
+.moreInfo .areaCoronaVirusSus .textInfoArea .title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.moreInfo .areaCoronaVirusSus .textInfoArea .coronaVirusSus{
+    margin-top: 16px 0;
+    margin: 20px 0;
+}
+
+
+.moreInfo .areaCoronaVirusSus .textInfoArea .coronaVirusSus span{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.moreInfo .areaCoronaVirusSus .textInfoArea .coronaVirusSus span:nth-child(2){
+    font-weight: 400;
+}
+
+.moreInfo .areaCoronaVirusSus .textInfoArea p{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.linkApp {
+    height: 73px;
+    display: flex;
+    margin-top: 30px;
+    background-color: #5438AF;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+}
+
+.textInfoArea .areaLink{
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+}
+
+.linkApp img{
+    width: 29.96px;
+    height: 32.69px
+}
+
+.linkApp .linkAppText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.linkApp .linkAppText span{
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+
+.linkApp .linkAppText span:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 836px) {
+    .textInfoArea .areaLink{
+        width: 208px;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 661px) {
+    .textInfoArea .areaLink{
+        width: 208px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .moreInfo .areaCoronaVirusSus{
+        flex-direction: column;
+    }
+    
+    .moreInfo .areaCoronaVirusSus .textInfoArea{
+        max-width: 100%;
+    }
+    
+
+    .moreInfo .areaCoronaVirusSus .appImage{
+        position: relative;
+        width: 223px;
+        height: 394px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}

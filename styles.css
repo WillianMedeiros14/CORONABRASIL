@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+   
+}
+
+.sectionSize {
+    display: flex;
+    align-items: center;
+    width: 1177px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+/* @media (max-width: 836px) {
+    main {
+       padding-top: 100px;
+    }
+} */

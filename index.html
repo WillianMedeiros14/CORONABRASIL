@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoronaBrasil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="css/shimmerItemBySate.css">
+    <link rel="stylesheet" href="css/itemByState.css">
+    <link rel="stylesheet" href="css/infectedSection.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/moreInfo.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="sectionSize">
+            <div class="logo">
+                <span>CORONA</span>
+                <span>BRASIL</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#general">Geral</a></li>
+                    <li><a href="#infectedByState">Infectados por estado</a></li>
+                    <li><a href="#deathsByState">Óbitos por estado</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <secttion id="general" class="general">
+            <div class="updateDate">
+                <span>Data de atualização: </span>
+                <span id="updateDate">00/00/0000 as 00:00</span>
+            </div>
+
+            <div class="cardsArea">
+                <div class="cardGeneral">
+                    <span class="title">Recuperados</span>
+                    <span id="totalNumberRecovered" class="totalNumber">......</span>
+                </div>
+
+                <div class="cardGeneral">
+                    <span class="title">Infectados</span>
+                    <span id="totalNumberInfected" class="totalNumber">......</span>
+                </div>
+
+                <div class="cardGeneral">
+                    <span class="title">Óbitos</span>
+                    <span id="totalNumberDeaths" class="totalNumber">......</span>
+                </div>
+            </div>
+
+        </secttion>
+
+        <secttion id="infectedByState" class="infectedByState infectedSection">
+            <div class="leftLine" style="background-color: #2819D7;"></div>
+
+            <div class="content">
+                <h3><span>Infectados </span> <span>por estado</span></h3>
+
+                <ul id="dataInfectedByState" class="itemsArea">
+                    <div class="shimmerItemBySate">
+                        <div class="lineFlag"></div>
+                        <div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="shimmer"></div>
+                    </div>
+                </ul>
+            </div>
+        </secttion>
+
+        <secttion id="deathsByState" class="deathsByState infectedSection">
+            <div class="leftLine" style="background-color: #EF0521;"></div>
+
+            <div class="content">
+                <h3><span>Óbitos </span> <span>por estado</span></h3>
+
+                <ul id="dataDeathsByState" class="itemsArea">
+                    <div class="shimmerItemBySate">
+                        <div class="lineFlag"></div>
+                        <div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="shimmer"></div>
+                    </div>
+                </ul>
+            </div>
+        </secttion>
+
+        <section class="moreInfo infectedSection">
+            <div class="contentTitle">
+                <div class="moreInfoleftLine" style="background-color: #12BF81;"></div>
+                <h3><span>Mais </span> <span>informações</span></h3>
+            </div>
+            <div class="areaCoronaVirusSus">
+                <div class="textInfoArea">
+                    <span class="title">Fique informado</span>
+                    <div class="coronaVirusSus">
+                        <span>CORONAVÍRUS </span>
+                        <span>SUS</span>
+                    </div>
+                    <p>Faça uma auto-avaliação da sua saúde, acompanhe dicas oficiais do Ministério da Saúde,
+                        últimas notícias e encontre unidades de saúde próximas.</p>
+
+
+                    <div class="areaLink">
+                        <a class="linkApp"
+                            href="https://play.google.com/store/apps/details?id=br.gov.datasus.guardioes&hl=pt-br"
+                            target="_blank">
+                            <img src="./assets/icons/goolgePlay.svg" alt="">
+                            <div class="linkAppText">
+                                <span>Dispinível na</span>
+                                <span>Google Play</span>
+                            </div>
+                        </a>
+
+                        <a class="linkApp" href="https://apps.apple.com/br/app/coronav%C3%ADrus-sus/id1408008382"
+                            target="_blank">
+                            <img src="./assets/icons/apple.svg" alt="">
+                            <div class="linkAppText">
+                                <span>Dispinível na</span>
+                                <span>App Store</span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <img class="appImage" src="assets/image/phoneApp.png" alt="">
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="sectionSize">
+            <div class="logo">
+                <span>CORONA</span>
+                <span>BRASIL</span>
+            </div>
+
+            <div class="user">
+                <span>Criado por Willian Medeiros</span>
+                <a href="https://github.com/WillianMedeiros14" target="_blank">
+                    <img src="./assets/icons/hitHub.svg" />
+                </a>
+                <a href="https://www.linkedin.com/in/williandsmedeiros/" target="_blank">
+                    <img src="./assets/icons/Linkedin.svg" />
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

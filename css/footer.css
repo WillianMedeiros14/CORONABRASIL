@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    background-color: #20202D;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 100px;
+}
+
+footer .sectionSize {
+    justify-content: space-between;
+    height: 96px;  
+}
+
+
+footer .user{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+footer .user span{
+   font-size: 14px;
+   color: #F6F6F6;
+   font-weight: 400;
+}
+
+@media (max-width: 836px) {
+    footer { 
+        padding: 20px 20px;
+    }
+
+    footer .sectionSize{
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+}

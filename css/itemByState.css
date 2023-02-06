@@ -1,0 +1,39 @@
+
+
+/* item por estado */
+.itemByState {
+    width: 200px;
+    height: 96px;
+    background-color: rgba(212, 231, 254, 0.5);
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 25px;
+}
+
+.itemByState {
+   align-items: center;
+}
+
+.itemByState img {
+    width: 59px;
+    height: 42px;
+    margin-right: 1.5rem;
+}
+
+.itemByState div{
+    display: flex;
+   flex-direction: column;
+}
+
+.itemByState div span {
+    font-size: 24px;
+    font-weight: 600;
+    color:#2F2C4A;
+}
+
+.itemByState div span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+    color: #656464;
+}

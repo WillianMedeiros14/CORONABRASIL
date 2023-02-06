@@ -49,41 +49,21 @@ const displayGeneralData = (params) => {
 };
 
 const displayByState = (params, type) => {
-  let result;
-
-  if (type === "infectedByRegion") {
-    result = params.infectedByRegion
-      .map(
-        (item) => `
-            <div class="itemByState">
-                <img src="./assets/image/flags/${item.state}.png" alt="${
-          item.state
-        }"/>
-                <div>
-                    <span>${item.state}</span>
-                    <span>${item.count.toLocaleString("pt-BR")}</span>
-                </div>
-            </div>
-        `
-      )
-      .join("");
-  } else {
-    result = params.deceasedByRegion
-      .map(
-        (item) => `
-            <div class="itemByState">
+  const result = params[type]
+    .map(
+      (item) => `
+        <div class="itemByState">
             <img src="./assets/image/flags/${item.state}.png" alt="${
-          item.state
-        }"/>
-                <div>
-                    <span>${item.state}</span>
-                    <span>${item.count.toLocaleString("pt-BR")}</span>
-                </div>
+        item.state
+      }"/>
+            <div>
+                <span>${item.state}</span>
+                <span>${item.count.toLocaleString("pt-BR")}</span>
             </div>
-        `
-      )
-      .join("");
-  }
+        </div>
+    `
+    )
+    .join("");
 
   return result;
 };

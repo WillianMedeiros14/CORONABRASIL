@@ -56,7 +56,9 @@ const displayByState = (params, type) => {
       .map(
         (item) => `
             <div class="itemByState">
-                <img src="../assets/image/flags/${item.state}.png" />
+                <img src="../assets/image/flags/${item.state}.png" alt="${
+          item.state
+        }"/>
                 <div>
                     <span>${item.state}</span>
                     <span>${item.count.toLocaleString("pt-BR")}</span>
@@ -70,7 +72,9 @@ const displayByState = (params, type) => {
       .map(
         (item) => `
             <div class="itemByState">
-            <img src="../assets/image/flags/${item.state}.png" />
+            <img src="../assets/image/flags/${item.state}.png" alt="${
+          item.state
+        }"/>
                 <div>
                     <span>${item.state}</span>
                     <span>${item.count.toLocaleString("pt-BR")}</span>

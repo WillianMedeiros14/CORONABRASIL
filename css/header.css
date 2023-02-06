@@ -27,6 +27,7 @@ header nav ul li a{
    color: rgba(255, 255, 255, 0.8);
    padding-bottom: 2px;
    white-space: nowrap;
+   transition: all .2s ease-in-out;
 }
 
 

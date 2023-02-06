@@ -56,7 +56,7 @@ const displayByState = (params, type) => {
       .map(
         (item) => `
             <div class="itemByState">
-                <img src="../assets/image/flags/${item.state}.png" alt="${
+                <img src="./assets/image/flags/${item.state}.png" alt="${
           item.state
         }"/>
                 <div>
@@ -72,7 +72,7 @@ const displayByState = (params, type) => {
       .map(
         (item) => `
             <div class="itemByState">
-            <img src="../assets/image/flags/${item.state}.png" alt="${
+            <img src="./assets/image/flags/${item.state}.png" alt="${
           item.state
         }"/>
                 <div>
